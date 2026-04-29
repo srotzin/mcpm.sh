@@ -1,0 +1,42 @@
+{
+  "name": "hive-mcp-agent-kyc",
+  "display_name": "Hive Agent KYC",
+  "description": "KYA agent identity verification and trust scoring for autonomous A2A networks",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-mcp-agent-kyc"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "Professional Apps"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hive-mcp-agent-kyc.onrender.com/mcp",
+      "description": "Connect to Hive Agent KYC over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on Hive Agent KYC",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on Hive Agent KYC"
+    }
+  ]
+}

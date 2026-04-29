@@ -1,0 +1,42 @@
+{
+  "name": "hive-mcp-barter",
+  "display_name": "Hive Barter",
+  "description": "Multi-party agent barter \u2014 non-cash capability exchange with cryptographic receipts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-mcp-barter"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "Finance"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hive-mcp-barter.onrender.com/mcp",
+      "description": "Connect to Hive Barter over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on Hive Barter",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on Hive Barter"
+    }
+  ]
+}

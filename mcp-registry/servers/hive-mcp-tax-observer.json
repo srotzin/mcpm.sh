@@ -1,0 +1,42 @@
+{
+  "name": "hive-mcp-tax-observer",
+  "display_name": "Hive Tax Observer",
+  "description": "Read-only tax event observation for agent-to-agent transaction streams",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-mcp-tax-observer"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "Finance"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hive-mcp-tax-observer.onrender.com/mcp",
+      "description": "Connect to Hive Tax Observer over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on Hive Tax Observer",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on Hive Tax Observer"
+    }
+  ]
+}

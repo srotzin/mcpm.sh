@@ -1,0 +1,42 @@
+{
+  "name": "hivegate",
+  "display_name": "HiveGate",
+  "description": "Agent admission queue with capacity control and priority tiers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hivegate"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "AI Systems"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hivegate.onrender.com/mcp",
+      "description": "Connect to HiveGate over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on HiveGate",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on HiveGate"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "hive-mcp-evaluator",
+  "display_name": "Hive Evaluator",
+  "description": "Agent output evaluation, benchmarking, and quality scoring",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-mcp-evaluator"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "Analytics"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hive-mcp-evaluator.onrender.com/mcp",
+      "description": "Connect to Hive Evaluator over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on Hive Evaluator",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on Hive Evaluator"
+    }
+  ]
+}

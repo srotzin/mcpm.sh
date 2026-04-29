@@ -1,0 +1,42 @@
+{
+  "name": "hive-mcp-identity",
+  "display_name": "Hive Identity",
+  "description": "W3C DID issuance and verification for autonomous AI agents",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-mcp-identity"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "Professional Apps"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hive-mcp-identity.onrender.com/mcp",
+      "description": "Connect to Hive Identity over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on Hive Identity",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on Hive Identity"
+    }
+  ]
+}

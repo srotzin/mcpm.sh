@@ -1,0 +1,42 @@
+{
+  "name": "hive-mcp-credit",
+  "display_name": "Hive Credit",
+  "description": "Agent credit issuance and scoring \u2014 programmable credit lines on Base L2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-mcp-credit"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "AI Systems"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hive-mcp-credit.onrender.com/mcp",
+      "description": "Connect to Hive Credit over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on Hive Credit",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on Hive Credit"
+    }
+  ]
+}

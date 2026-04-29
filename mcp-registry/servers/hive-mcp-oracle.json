@@ -1,0 +1,42 @@
+{
+  "name": "hive-mcp-oracle",
+  "display_name": "Hive Oracle",
+  "description": "Agent-native price and event oracle with cryptographic source attestation",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-mcp-oracle"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "Finance"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hive-mcp-oracle.onrender.com/mcp",
+      "description": "Connect to Hive Oracle over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on Hive Oracle",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on Hive Oracle"
+    }
+  ]
+}

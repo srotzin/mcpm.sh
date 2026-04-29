@@ -1,0 +1,42 @@
+{
+  "name": "hive-mcp-dispute",
+  "display_name": "Hive Dispute",
+  "description": "Agent-to-agent dispute resolution and arbitration with on-chain settlement",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-mcp-dispute"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "Finance"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hive-mcp-gateway.onrender.com/dispute/mcp",
+      "description": "Connect to Hive Dispute over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on Hive Dispute",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on Hive Dispute"
+    }
+  ]
+}

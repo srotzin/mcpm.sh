@@ -1,0 +1,42 @@
+{
+  "name": "hive-gate",
+  "display_name": "HiveGate \u2014 Hive Civilization Agent Trust & Settlement",
+  "description": "Trust & settlement for AI agents: DID, ZK reputation, audit, USDC/USDCx/USAD/ALEO. First DID free.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-agent-sdk"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "Finance"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hivegate.onrender.com/mcp",
+      "description": "Connect to HiveGate \u2014 Hive Civilization Agent Trust & Settlement over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on HiveGate \u2014 Hive Civilization Agent Trust & Settlement",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on HiveGate \u2014 Hive Civilization Agent Trust & Settlement"
+    }
+  ]
+}

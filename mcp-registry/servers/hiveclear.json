@@ -1,0 +1,42 @@
+{
+  "name": "hiveclear",
+  "display_name": "HiveClear",
+  "description": "Multi-agent settlement and clearing with validator consensus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hiveclear"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "Finance"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hiveclear.onrender.com/mcp",
+      "description": "Connect to HiveClear over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on HiveClear",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on HiveClear"
+    }
+  ]
+}

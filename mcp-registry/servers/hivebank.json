@@ -1,0 +1,42 @@
+{
+  "name": "hivebank",
+  "display_name": "HiveBank",
+  "description": "USDC treasury vaults, streaming payments, and DeFi yield for AI agents",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hivebank"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "Finance"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hivebank.onrender.com/mcp",
+      "description": "Connect to HiveBank over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on HiveBank",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on HiveBank"
+    }
+  ]
+}

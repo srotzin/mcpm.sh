@@ -1,0 +1,42 @@
+{
+  "name": "hive-mcp-capital",
+  "display_name": "Hive Capital",
+  "description": "Autonomous investment layer \u2014 agent equity, credit markets, capability staking",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-mcp-capital"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "Finance"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hive-mcp-capital.onrender.com/mcp",
+      "description": "Connect to Hive Capital over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on Hive Capital",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on Hive Capital"
+    }
+  ]
+}

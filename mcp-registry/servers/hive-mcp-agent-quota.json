@@ -1,0 +1,42 @@
+{
+  "name": "hive-mcp-agent-quota",
+  "display_name": "Hive Agent Quota",
+  "description": "Per-agent rate limits and quota enforcement for the Hive A2A economy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-mcp-agent-quota"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "AI Systems"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hive-mcp-agent-quota.onrender.com/mcp",
+      "description": "Connect to Hive Agent Quota over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on Hive Agent Quota",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on Hive Agent Quota"
+    }
+  ]
+}

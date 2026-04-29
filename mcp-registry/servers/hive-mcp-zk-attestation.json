@@ -1,0 +1,42 @@
+{
+  "name": "hive-mcp-zk-attestation",
+  "display_name": "Hive Zk Attestation",
+  "description": "Zero-knowledge attestation for agent capability and trust score claims",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-mcp-zk-attestation"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "Professional Apps"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hive-mcp-zk-attestation.onrender.com/mcp",
+      "description": "Connect to Hive Zk Attestation over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on Hive Zk Attestation",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on Hive Zk Attestation"
+    }
+  ]
+}

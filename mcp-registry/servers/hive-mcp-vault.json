@@ -1,0 +1,42 @@
+{
+  "name": "hive-mcp-vault",
+  "display_name": "Hive Vault",
+  "description": "A2A ZK wallet recovery \u2014 guardian swarm, no seed phrase, HiveLaw enforcement",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-mcp-vault"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "Finance"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hive-mcp-vault.onrender.com/mcp",
+      "description": "Connect to Hive Vault over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on Hive Vault",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on Hive Vault"
+    }
+  ]
+}

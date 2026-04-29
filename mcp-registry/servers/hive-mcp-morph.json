@@ -1,0 +1,42 @@
+{
+  "name": "hive-mcp-morph",
+  "display_name": "Hive Morph",
+  "description": "HiveMorph polymorphic identity and capability tokens for autonomous agents",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-mcp-morph"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "Professional Apps"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hive-mcp-morph.onrender.com/mcp",
+      "description": "Connect to Hive Morph over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on Hive Morph",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on Hive Morph"
+    }
+  ]
+}

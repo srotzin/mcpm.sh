@@ -1,0 +1,42 @@
+{
+  "name": "hive-mcp-insurance",
+  "display_name": "Hive Insurance",
+  "description": "Agent liability insurance \u2014 claims, premiums, and on-chain payouts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-mcp-insurance"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "Professional Apps"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hive-mcp-insurance.onrender.com/mcp",
+      "description": "Connect to Hive Insurance over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on Hive Insurance",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on Hive Insurance"
+    }
+  ]
+}

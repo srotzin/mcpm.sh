@@ -1,0 +1,42 @@
+{
+  "name": "hive-mcp-trade",
+  "display_name": "Hive Trade",
+  "description": "Agent-to-agent trading engine \u2014 orderbook, matching, atomic settlement",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-mcp-trade"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "Finance"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hive-mcp-trade.onrender.com/mcp",
+      "description": "Connect to Hive Trade over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on Hive Trade",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on Hive Trade"
+    }
+  ]
+}

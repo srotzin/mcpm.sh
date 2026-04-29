@@ -1,0 +1,42 @@
+{
+  "name": "hive-mcp-flag",
+  "display_name": "Hive Flag",
+  "description": "Feature flag service for safe rollouts across the Hive agent fleet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-mcp-flag"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "AI Systems"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hive-mcp-flag.onrender.com/mcp",
+      "description": "Connect to Hive Flag over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on Hive Flag",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on Hive Flag"
+    }
+  ]
+}

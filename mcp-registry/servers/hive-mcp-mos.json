@@ -1,0 +1,42 @@
+{
+  "name": "hive-mcp-mos",
+  "display_name": "Hive Mos",
+  "description": "Tether MiningOS bridge \u2014 site telemetry, paying demand, BTC to USDC settlement",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srotzin/hive-mcp-mos"
+  },
+  "homepage": "https://www.hiveagentiq.com",
+  "author": {
+    "name": "Steve Rotzin",
+    "url": "https://github.com/srotzin"
+  },
+  "license": "MIT",
+  "categories": [
+    "Finance"
+  ],
+  "tags": [
+    "mcp",
+    "hive-civilization",
+    "ai-agents",
+    "a2a",
+    "autonomous-agents",
+    "streamable-http",
+    "agent-economy"
+  ],
+  "installations": {
+    "http": {
+      "type": "http",
+      "url": "https://hive-mcp-mos.onrender.com/mcp",
+      "description": "Connect to Hive Mos over Streamable HTTP",
+      "recommended": true
+    }
+  },
+  "examples": [
+    {
+      "title": "List tools on Hive Mos",
+      "description": "Discover available MCP tools",
+      "prompt": "List the available tools on Hive Mos"
+    }
+  ]
+}
